@@ -57,8 +57,8 @@ def risk_turnover(rows):
             edgecolors=color, linewidths=1.15, alpha=.95, zorder=3,
         )
     for policy, label, color, marker, label_position in [
-        ('risk_tolerant_0.02', r'$A:\ \varepsilon=0.02$', ROSE, 'o', (1.02, 18.02)),
-        ('variance_penalty_0.3', r'$B:\ \lambda=0.3$', TEAL, 'v', (2.06, 17.62)),
+        ('risk_tolerant_0.02', r'$A:\varepsilon=0.02$', ROSE, 'o', (1.02, 18.02)),
+        ('variance_penalty_0.3', r'$B:\lambda=0.3$', TEAL, 'v', (2.06, 17.62)),
     ]:
         row = next(r for r in rows if r['id'] == policy)
         point = (row['annualized_full_notional_turnover'], 100*row['annualized_gross_volatility'])
