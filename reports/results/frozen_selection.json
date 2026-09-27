@@ -1,0 +1,165 @@
+{
+  "status": "FROZEN_BEFORE_FINAL_TEST",
+  "frozen_at_utc": "2026-09-26T16:59:33.150474+00:00",
+  "selection": {
+    "primary_A": "risk_tolerant_0.02",
+    "primary_B": "variance_penalty_0.3",
+    "volatility_ceiling": 0.1126361735505851,
+    "daily_mv_volatility": 0.11042762112802461,
+    "absolute_tie_tolerance": 1e-10,
+    "ratio_boundary_tolerance": 1e-10,
+    "eligible_conventional_ids": [
+      "minimum_variance_monthly",
+      "minimum_variance_weekly",
+      "minimum_variance_daily",
+      "weight_band_0.0025",
+      "weight_band_0.005",
+      "weight_band_0.01",
+      "weight_band_0.02",
+      "weight_band_0.04",
+      "variance_penalty_0.01",
+      "variance_penalty_0.03",
+      "variance_penalty_0.1",
+      "variance_penalty_0.3"
+    ],
+    "conventional_audit": [
+      {
+        "id": "minimum_variance_monthly",
+        "volatility": 0.11102056510778813,
+        "turnover": 1.804792315292776,
+        "volatility_ratio_to_daily_mv": 1.0053695259728188,
+        "eligible": true
+      },
+      {
+        "id": "minimum_variance_weekly",
+        "volatility": 0.11057304034865652,
+        "turnover": 3.205296798409621,
+        "volatility_ratio_to_daily_mv": 1.0013168736150109,
+        "eligible": true
+      },
+      {
+        "id": "minimum_variance_daily",
+        "volatility": 0.11042762112802461,
+        "turnover": 5.449360804743155,
+        "volatility_ratio_to_daily_mv": 1.0,
+        "eligible": true
+      },
+      {
+        "id": "weight_band_0.0025",
+        "volatility": 0.11051317558587419,
+        "turnover": 3.938567165840332,
+        "volatility_ratio_to_daily_mv": 1.0007747559621012,
+        "eligible": true
+      },
+      {
+        "id": "weight_band_0.005",
+        "volatility": 0.11059138108216893,
+        "turnover": 3.1852170323033744,
+        "volatility_ratio_to_daily_mv": 1.0014829618936956,
+        "eligible": true
+      },
+      {
+        "id": "weight_band_0.01",
+        "volatility": 0.1107613264737919,
+        "turnover": 2.3601928884920866,
+        "volatility_ratio_to_daily_mv": 1.0030219372866904,
+        "eligible": true
+      },
+      {
+        "id": "weight_band_0.02",
+        "volatility": 0.11112931205888653,
+        "turnover": 1.605165983299903,
+        "volatility_ratio_to_daily_mv": 1.0063543063202314,
+        "eligible": true
+      },
+      {
+        "id": "weight_band_0.04",
+        "volatility": 0.11222754115118103,
+        "turnover": 1.0172772802052523,
+        "volatility_ratio_to_daily_mv": 1.0162995453924493,
+        "eligible": true
+      },
+      {
+        "id": "weight_band_0.08",
+        "volatility": 0.11630331111222078,
+        "turnover": 0.49994123120310835,
+        "volatility_ratio_to_daily_mv": 1.0532085172547925,
+        "eligible": false
+      },
+      {
+        "id": "variance_penalty_0.01",
+        "volatility": 0.11043186378734536,
+        "turnover": 2.713516401107343,
+        "volatility_ratio_to_daily_mv": 1.0000384202727308,
+        "eligible": true
+      },
+      {
+        "id": "variance_penalty_0.03",
+        "volatility": 0.11058992668014221,
+        "turnover": 1.8841950180719473,
+        "volatility_ratio_to_daily_mv": 1.001469791257474,
+        "eligible": true
+      },
+      {
+        "id": "variance_penalty_0.1",
+        "volatility": 0.11103622670148326,
+        "turnover": 1.3276323199669093,
+        "volatility_ratio_to_daily_mv": 1.0055113527507131,
+        "eligible": true
+      },
+      {
+        "id": "variance_penalty_0.3",
+        "volatility": 0.11129334296826308,
+        "turnover": 0.8934030924066474,
+        "volatility_ratio_to_daily_mv": 1.0078397219046746,
+        "eligible": true
+      },
+      {
+        "id": "variance_penalty_1",
+        "volatility": 0.11977099565687147,
+        "turnover": 0.23130713561704727,
+        "volatility_ratio_to_daily_mv": 1.0846108467555828,
+        "eligible": false
+      },
+      {
+        "id": "variance_penalty_3",
+        "volatility": 0.1269848878892456,
+        "turnover": 0.029006032163706164,
+        "volatility_ratio_to_daily_mv": 1.1499377292754074,
+        "eligible": false
+      },
+      {
+        "id": "variance_penalty_10",
+        "volatility": 0.1269848878892456,
+        "turnover": 0.029006032163706164,
+        "volatility_ratio_to_daily_mv": 1.1499377292754074,
+        "eligible": false
+      }
+    ],
+    "secondary": {
+      "weight_band": {
+        "id": "weight_band_0.08",
+        "matched": true,
+        "qualifying_ids": [
+          "weight_band_0.08"
+        ],
+        "turnover_distance": 0.021652953002888775,
+        "relative_turnover_distance": 0.0415130261389901,
+        "volatility": 0.11630331111222078,
+        "turnover": 0.49994123120310835
+      },
+      "variance_penalty": {
+        "id": "variance_penalty_1",
+        "matched": false,
+        "qualifying_ids": [],
+        "turnover_distance": 0.2902870485889498,
+        "relative_turnover_distance": 0.5565381236580363,
+        "volatility": 0.11977099565687147,
+        "turnover": 0.23130713561704727
+      }
+    }
+  },
+  "original_selection_sha256": "99bc567c125e49636cc76876ae36bb164c1c8a39c49e50e790d3fb4db1e7c3cf",
+  "final_started_at_utc": "2026-09-26T17:22:32.932867+00:00",
+  "final_study_sha256": "1b18daad562bf22d3b522b78e79237aa64b2fff35834bcbb04753148d4ebc83e"
+}

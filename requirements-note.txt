@@ -1,0 +1,12 @@
+# Install after requirements.txt; needed only to rebuild the PDF.
+matplotlib==3.10.8
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.66.0
+kiwisolver==1.5.1
+pyparsing==3.3.3
+packaging==26.3
+pillow==12.3.0
+reportlab==4.4.9
+pypdf==6.10.0
+charset-normalizer==3.5.1

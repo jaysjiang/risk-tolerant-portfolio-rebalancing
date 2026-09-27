@@ -1,0 +1,152 @@
+[
+  {
+    "period": "2020",
+    "sessions": 253,
+    "volatility_A": 0.3155361797991248,
+    "volatility_B": 0.315012343884227,
+    "turnover_A": 1.29332193534871,
+    "turnover_B": 1.5196798695444838,
+    "volatility_ratio": 1.0016629059942181,
+    "turnover_ratio": 0.851048935547443
+  },
+  {
+    "period": "2021",
+    "sessions": 252,
+    "volatility_A": 0.10675360931113298,
+    "volatility_B": 0.10575230987784286,
+    "turnover_A": 0.38914475752936,
+    "turnover_B": 0.7650306625123834,
+    "volatility_ratio": 1.0094683457453246,
+    "turnover_ratio": 0.5086655693660658
+  },
+  {
+    "period": "2022",
+    "sessions": 251,
+    "volatility_A": 0.18266201395582093,
+    "volatility_B": 0.18045557284758496,
+    "turnover_A": 1.0590461585006983,
+    "turnover_B": 1.4619555772577806,
+    "volatility_ratio": 1.012227059953973,
+    "turnover_ratio": 0.7244037883060527
+  },
+  {
+    "period": "2023",
+    "sessions": 250,
+    "volatility_A": 0.11188194652897314,
+    "volatility_B": 0.11193424929868304,
+    "turnover_A": 0.386785390229147,
+    "turnover_B": 1.0710098090534883,
+    "volatility_ratio": 0.9995327366732024,
+    "turnover_ratio": 0.36114084759967885
+  },
+  {
+    "period": "2024",
+    "sessions": 252,
+    "volatility_A": 0.09149897462509683,
+    "volatility_B": 0.09080100350329795,
+    "turnover_A": 0.7835113411680357,
+    "turnover_B": 1.0823773917724897,
+    "volatility_ratio": 1.0076868216745372,
+    "turnover_ratio": 0.723879995206631
+  },
+  {
+    "period": "2025",
+    "sessions": 250,
+    "volatility_A": 0.1382696011293085,
+    "volatility_B": 0.13587966472205615,
+    "turnover_A": 0.7394471910913971,
+    "turnover_B": 1.2348612728013744,
+    "volatility_ratio": 1.0175886245535049,
+    "turnover_ratio": 0.5988099290002887
+  },
+  {
+    "period": "2020\u20132021",
+    "sessions": 505,
+    "volatility_A": 0.23550544377812194,
+    "volatility_B": 0.23493152045429597,
+    "turnover_A": 0.8421285713675689,
+    "turnover_B": 1.1431024434611403,
+    "volatility_ratio": 1.0024429387879334,
+    "turnover_ratio": 0.7367043751719502
+  },
+  {
+    "period": "2022\u20132023",
+    "sessions": 501,
+    "volatility_A": 0.15138975504123664,
+    "volatility_B": 0.1500734672595222,
+    "turnover_A": 0.7235866932953339,
+    "turnover_B": 1.2668728585929634,
+    "volatility_ratio": 1.0087709560240798,
+    "turnover_ratio": 0.5711596774588544
+  },
+  {
+    "period": "2024\u20132025",
+    "sessions": 502,
+    "volatility_A": 0.11703233409340857,
+    "volatility_B": 0.11535602519222828,
+    "turnover_A": 0.7615670433211034,
+    "turnover_B": 1.1583155795358797,
+    "volatility_ratio": 1.0145316111437344,
+    "turnover_ratio": 0.6574780282470623
+  },
+  {
+    "period": "Excluding 2020",
+    "sessions": 1255,
+    "volatility_A": 0.13006286818334564,
+    "volatility_B": 0.1286730110832684,
+    "turnover_A": 0.6716239585542274,
+    "turnover_B": 1.1226816334941883,
+    "volatility_ratio": 1.0108014655783397,
+    "turnover_ratio": 0.5982318927440654
+  },
+  {
+    "period": "Excluding 2021",
+    "sessions": 1256,
+    "volatility_A": 0.18602154604486623,
+    "volatility_B": 0.184990182903819,
+    "turnover_A": 0.8535302856141562,
+    "turnover_B": 1.2744082245834703,
+    "volatility_ratio": 1.0055752317493705,
+    "turnover_ratio": 0.669746372590404
+  },
+  {
+    "period": "Excluding 2022",
+    "sessions": 1257,
+    "volatility_A": 0.1738178256177026,
+    "volatility_B": 0.17306240739077056,
+    "turnover_A": 0.7193937405291196,
+    "turnover_B": 1.1348397829262185,
+    "volatility_ratio": 1.0043650047304977,
+    "turnover_ratio": 0.6339165680939923
+  },
+  {
+    "period": "Excluding 2023",
+    "sessions": 1258,
+    "volatility_A": 0.185347430806969,
+    "volatility_B": 0.18418612167448062,
+    "turnover_A": 0.8532608665115197,
+    "turnover_B": 1.2127917366984002,
+    "volatility_ratio": 1.0063050848887563,
+    "turnover_ratio": 0.7035510225641572
+  },
+  {
+    "period": "Excluding 2024",
+    "sessions": 1256,
+    "volatility_A": 0.18767441301114116,
+    "volatility_B": 0.18660311086575573,
+    "turnover_A": 0.7744057799796443,
+    "turnover_B": 1.2107367470567618,
+    "volatility_ratio": 1.0057410733423202,
+    "turnover_ratio": 0.6396153266696369
+  },
+  {
+    "period": "Excluding 2025",
+    "sessions": 1258,
+    "volatility_A": 0.1817980870985877,
+    "volatility_B": 0.18098163070782564,
+    "turnover_A": 0.7831770428107546,
+    "turnover_B": 1.180229840087136,
+    "volatility_ratio": 1.004511266627275,
+    "turnover_ratio": 0.6635801063570236
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "status": "EXPLORATORY_POST_RESULT_ACCOUNTING_DIAGNOSTIC",
+  "policy": "variance_penalty_0.3",
+  "reversal_definition": "Negative dot product of successive filled target dollar-trade vectors",
+  "scenarios": {
+    "baseline": {
+      "filled_targets": 1393,
+      "successive_trade_vectors_opposite_dot_fraction": 0.41594827586206895,
+      "filled_target_weights_mean_L1_step": 0.0039525179285586085,
+      "timing_cost_frozen_target_checks_passed": true,
+      "calendar_year_sum_routine_turnover": {
+        "2020": 1.5257103452172787,
+        "2021": 0.765030662512384,
+        "2022": 1.4561541662369177,
+        "2023": 1.0625097312038576,
+        "2024": 1.0823773917724901,
+        "2025": 1.2250607865093
+      }
+    },
+    "extra_execution_lag": {
+      "filled_targets": 1499,
+      "successive_trade_vectors_opposite_dot_fraction": 0.992656875834446,
+      "filled_target_weights_mean_L1_step": 0.03561352112069283,
+      "timing_cost_frozen_target_checks_passed": true,
+      "calendar_year_sum_routine_turnover": {
+        "2020": 8.040195209800416,
+        "2021": 5.127666187415852,
+        "2022": 7.009471953117243,
+        "2023": 7.538965261789732,
+        "2024": 13.50865133289504,
+        "2025": 16.1022283505829
+      }
+    }
+  }
+}

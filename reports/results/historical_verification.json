@@ -1,0 +1,38 @@
+{
+  "verified_at_utc": "2026-09-26T17:49:31.406800+00:00",
+  "study": "reports/final_studies/final_20260926T172232Z_d4bdfe8d",
+  "study_manifest_sha256": "1b18daad562bf22d3b522b78e79237aa64b2fff35834bcbb04753148d4ebc83e",
+  "selection_sha256": "99bc567c125e49636cc76876ae36bb164c1c8a39c49e50e790d3fb4db1e7c3cf",
+  "policy_runs": 189,
+  "policy_sessions": 285012,
+  "original_financial_files_unchanged": 115,
+  "all_metric_sets_recomputed": true,
+  "all_artifact_hashes_verified": true,
+  "split_events_verified": 945,
+  "inference_comparisons": 11,
+  "bootstrap_replications_each": 5000,
+  "analysis_source_sha256": {
+    "src/risk_rebalancing/inference.py": "13faa558392d80776a7c64e210049af9884ac0f0419ddab154df7481248de46b",
+    "scripts/final_diagnostics.py": "823dfbc0dbc85794c1e49946f86fd83cd71706ca90b37a6b8dc50102511664b3",
+    "scripts/analyze_final.py": "bb28c596793e918756f25b6b10d761baa1f33e76483a8e854e0a71ae267e9502"
+  },
+  "artifacts_sha256": {
+    "all_policy_metrics.parquet": "fdb1408ab2edcdaec48c1722fe1768785a891d747b106dca56cc2cc377829819",
+    "bootstrap_baseline_L10.parquet": "1f232575ece17675f63bb7995e6e394dec32e0974b4b5515fb0e66f735196e2f",
+    "bootstrap_baseline_L20.parquet": "ef31e0a9a4d3fa08814d201b37ae249e856f7c0592969b693fc5ca7f3761a4f9",
+    "bootstrap_baseline_L60.parquet": "c761d4a874dd52be3943f4bc47ffa8c27e807b2842850185b35e7ae71c246ec6",
+    "bootstrap_cost_0_L20.parquet": "ed6ce82ec81b33a56263df1826459a8b9447ed7c446073ef621fc53d6a7e1cf8",
+    "bootstrap_cost_10_L20.parquet": "bbb81db96d872c570eb28d2e9230372fb9442b25892c6ef7fe48d84ad6115601",
+    "bootstrap_cost_1_L20.parquet": "87a2e29d2c6ea63e66ac41841f1a6191bce8be1a4b685484df588ab0fdf05728",
+    "bootstrap_diagonal_covariance_L20.parquet": "92351df75b4ac5530d97df3ef567c2636e19104591b686a9f30f9f5fce272792",
+    "bootstrap_extra_execution_lag_L20.parquet": "ae659b81d7767f7e6384fe5278b9c21a6fd869a93f44bbef401962f2e76bce65",
+    "bootstrap_sample_covariance_L20.parquet": "2c43ed2b242f64795c7502451c26ea2ffebee438841c26573cc58fad4f3cc61d",
+    "bootstrap_window_126_L20.parquet": "2b79eaa84dd1369b9a9392453c7b7817cb3ed92a2ed7261a0235c6074af1c943",
+    "bootstrap_window_504_L20.parquet": "96bb5dce57210de03929989b0b101f6035d4bf05e2458dfa5e29c6039eebe36a",
+    "decision_examples.json": "2822cb247842a0f8a0606e3a20c8699a8b4c72c44e91a8578dcdf690f2b71fd9",
+    "diagnostics.json": "957b8bd796ccc31cfef73f02dc8d34c2aafb246cf0fdce3eb0e27353738b52ae",
+    "historical_stability.json": "7779fe2f23b66bf605f482dd8179956ff081f7f2d54545b0a6488534ad52a56a",
+    "inference.json": "1f71042a4a1b3ca61f797ecfc5dfac7f316bf2d681cda83943aeb8b4a16ed358"
+  },
+  "stage": "final_evaluation"
+}

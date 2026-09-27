@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "description": "Exact reviewed inputs required; no downloads or substitutes.",
+  "tickers": [
+    "XLB",
+    "XLE",
+    "XLF",
+    "XLI",
+    "XLK",
+    "XLP",
+    "XLU",
+    "XLV",
+    "XLY"
+  ],
+  "sessions": 1508,
+  "start": "2020-01-02",
+  "end": "2025-12-31",
+  "input_sha256": {
+    "input_actions.json": "e2a5ae8bee42243573ab6015d77eec18cb33107db6071f91f59012eb7fc7ba3b",
+    "input_calendar.json": "3fc05572169355bef07491b4061d28b846724a24f9b499027a001f99ecb768bc",
+    "input_closes.parquet": "69c71baabb87f2604dfd510f048ff107b1880024e7911b657277d7379c3c29a0",
+    "input_opens.parquet": "3e4e25358ef28c43fe41601205ea3965d43bb58c743a2997f9298f2ff431b90d",
+    "input_risk_returns.parquet": "ff5d6579197e035fc8a3e549641b7a927b9dc60cb37a9e48651f4c84baafe04c"
+  },
+  "core_sha256": {
+    "src/risk_rebalancing/__init__.py": "bfd35f1f9c89932646015fe9f65556b5a975765aa519b731d5e5066d210d058f",
+    "src/risk_rebalancing/experiments.py": "868ccb3c1504dfd290f50fd8e446e8df3f48c6b1d53aa188cb2527de57747ea5",
+    "src/risk_rebalancing/inference.py": "13faa558392d80776a7c64e210049af9884ac0f0419ddab154df7481248de46b",
+    "src/risk_rebalancing/ledger.py": "c074ddf3de902def0ae681354583e464bfc1151bc7aa4a5f836a7eed85d259fc",
+    "src/risk_rebalancing/mechanisms.py": "7b5d4eeeed7b4cb3982044fecc84c44d72d59044fec83ed6553379e2877e155f",
+    "src/risk_rebalancing/optimization.py": "89e377b7e1ee8acba76d71e7e8f6563107d9d18bc2f0caf77e5ce5ab54417228",
+    "src/risk_rebalancing/policies.py": "de1a67d55e5d9238e3595f7bcf88b354d913bf88cbf44dab8513e1f5eaad8cc3",
+    "src/risk_rebalancing/risk.py": "38de460e0517165f2caba2be2ad99424521d05a130bcb889983ba78f3c2ab6cf",
+    "src/risk_rebalancing/selection.py": "f50b8157be5ae9dddecf240c678cd87448fe4fcc4fa28b796b8dd2fc6faf12d4"
+  },
+  "scenarios": [
+    {
+      "id": "baseline",
+      "cost_bps": 5.0,
+      "window": 252,
+      "estimator": "ledoit_wolf",
+      "lag": 1
+    },
+    {
+      "id": "cost_0",
+      "cost_bps": 0.0,
+      "window": 252,
+      "estimator": "ledoit_wolf",
+      "lag": 1
+    },
+    {
+      "id": "cost_1",
+      "cost_bps": 1.0,
+      "window": 252,
+      "estimator": "ledoit_wolf",
+      "lag": 1
+    },
+    {
+      "id": "cost_10",
+      "cost_bps": 10.0,
+      "window": 252,
+      "estimator": "ledoit_wolf",
+      "lag": 1
+    },
+    {
+      "id": "window_126",
+      "cost_bps": 5.0,
+      "window": 126,
+      "estimator": "ledoit_wolf",
+      "lag": 1
+    },
+    {
+      "id": "window_504",
+      "cost_bps": 5.0,
+      "window": 504,
+      "estimator": "ledoit_wolf",
+      "lag": 1
+    },
+    {
+      "id": "sample_covariance",
+      "cost_bps": 5.0,
+      "window": 252,
+      "estimator": "sample",
+      "lag": 1
+    },
+    {
+      "id": "diagonal_covariance",
+      "cost_bps": 5.0,
+      "window": 252,
+      "estimator": "diagonal_ledoit_wolf",
+      "lag": 1
+    },
+    {
+      "id": "extra_execution_lag",
+      "cost_bps": 5.0,
+      "window": 252,
+      "estimator": "ledoit_wolf",
+      "lag": 2
+    }
+  ],
+  "primary_A": "risk_tolerant_0.02",
+  "primary_B": "variance_penalty_0.3",
+  "python_original": "3.12.14",
+  "final_study_sha256": "1b18daad562bf22d3b522b78e79237aa64b2fff35834bcbb04753148d4ebc83e",
+  "original_core_sha256": {
+    "src/risk_rebalancing/experiments.py": "868ccb3c1504dfd290f50fd8e446e8df3f48c6b1d53aa188cb2527de57747ea5",
+    "src/risk_rebalancing/inference.py": "13faa558392d80776a7c64e210049af9884ac0f0419ddab154df7481248de46b",
+    "src/risk_rebalancing/ledger.py": "0ccae4e9f2303208ce878aa3b46c74778850042127d1b0541662463012e4de2a",
+    "src/risk_rebalancing/mechanisms.py": "7b5d4eeeed7b4cb3982044fecc84c44d72d59044fec83ed6553379e2877e155f",
+    "src/risk_rebalancing/optimization.py": "89e377b7e1ee8acba76d71e7e8f6563107d9d18bc2f0caf77e5ce5ab54417228",
+    "src/risk_rebalancing/policies.py": "de1a67d55e5d9238e3595f7bcf88b354d913bf88cbf44dab8513e1f5eaad8cc3",
+    "src/risk_rebalancing/risk.py": "38de460e0517165f2caba2be2ad99424521d05a130bcb889983ba78f3c2ab6cf",
+    "src/risk_rebalancing/selection.py": "f50b8157be5ae9dddecf240c678cd87448fe4fcc4fa28b796b8dd2fc6faf12d4",
+    "src/risk_rebalancing/__init__.py": "bfd35f1f9c89932646015fe9f65556b5a975765aa519b731d5e5066d210d058f"
+  },
+  "source_revision": "One module docstring edited; executable syntax matches the original research source."
+}

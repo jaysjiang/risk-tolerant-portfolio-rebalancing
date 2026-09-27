@@ -1,0 +1,26 @@
+# Generated outputs and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+work/
+# Private inputs and per-session records
+data/
+private-data/
+*.parquet
+*.jsonl
+*.zip
+.env
+.env.*
+*.pem
+*.key
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

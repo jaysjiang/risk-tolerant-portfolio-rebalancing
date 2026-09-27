@@ -1,0 +1,651 @@
+[
+  {
+    "replications": 5000,
+    "mean_block": 20,
+    "seed": 20260926,
+    "rng": "PCG64",
+    "index_array_sha256": "71ee66364615aa1d95a510caee073c029d4bd37837619fcf7293d87ebfc5f209",
+    "paired_fields": [
+      "gross_A",
+      "gross_B",
+      "turnover_A",
+      "turnover_B"
+    ],
+    "point": {
+      "sessions": 1508,
+      "volatility_A": 0.17529024061451232,
+      "volatility_B": 0.17427409722678736,
+      "turnover_A": 0.775927398958076,
+      "turnover_B": 1.189286775218806,
+      "volatility_ratio": 1.005830719561282,
+      "turnover_ratio": 0.6524308645535222
+    },
+    "intervals": {
+      "volatility_ratio": {
+        "point": 1.005830719561282,
+        "percentile_95": [
+          0.9999881794147777,
+          1.0149068595580621
+        ],
+        "simultaneous_lower": 0.9999881794147777,
+        "simultaneous_upper": 1.0149068595580621,
+        "undefined_replications": 0
+      },
+      "turnover_ratio": {
+        "point": 0.6524308645535222,
+        "percentile_95": [
+          0.5331688955286404,
+          0.7555067867682099
+        ],
+        "simultaneous_lower": 0.5331688955286404,
+        "simultaneous_upper": 0.7555067867682099,
+        "undefined_replications": 0
+      }
+    },
+    "classification": "Strong support",
+    "strong_support": true,
+    "evidence_against": false,
+    "point_estimates_meet_target": true,
+    "scenario": "baseline",
+    "cost_bps": 5.0,
+    "primary_A": "risk_tolerant_0.02",
+    "primary_B": "variance_penalty_0.3",
+    "annual_cost_saving_bps": 2.0667968813036555,
+    "net_cagr_A": 0.08419122305381621,
+    "net_cagr_B": 0.0879204480853164,
+    "net_volatility_A": 0.17529459341783774,
+    "net_volatility_B": 0.17428143225784934,
+    "net_max_drawdown_A": -0.3295750163964587,
+    "net_max_drawdown_B": -0.331386153847938
+  },
+  {
+    "replications": 5000,
+    "mean_block": 10,
+    "seed": 20260926,
+    "rng": "PCG64",
+    "index_array_sha256": "5283b01bfaa9e35b242174811a438b611643a0eddcf85672a6e1fad863b57d33",
+    "paired_fields": [
+      "gross_A",
+      "gross_B",
+      "turnover_A",
+      "turnover_B"
+    ],
+    "point": {
+      "sessions": 1508,
+      "volatility_A": 0.17529024061451232,
+      "volatility_B": 0.17427409722678736,
+      "turnover_A": 0.775927398958076,
+      "turnover_B": 1.189286775218806,
+      "volatility_ratio": 1.005830719561282,
+      "turnover_ratio": 0.6524308645535222
+    },
+    "intervals": {
+      "volatility_ratio": {
+        "point": 1.005830719561282,
+        "percentile_95": [
+          0.9994889667447632,
+          1.014433387017786
+        ],
+        "simultaneous_lower": 0.9994889667447632,
+        "simultaneous_upper": 1.014433387017786,
+        "undefined_replications": 0
+      },
+      "turnover_ratio": {
+        "point": 0.6524308645535222,
+        "percentile_95": [
+          0.5560150125289404,
+          0.7406951492185182
+        ],
+        "simultaneous_lower": 0.5560150125289404,
+        "simultaneous_upper": 0.7406951492185182,
+        "undefined_replications": 0
+      }
+    },
+    "classification": "Strong support",
+    "strong_support": true,
+    "evidence_against": false,
+    "point_estimates_meet_target": true,
+    "scenario": "baseline",
+    "cost_bps": 5.0,
+    "primary_A": "risk_tolerant_0.02",
+    "primary_B": "variance_penalty_0.3",
+    "annual_cost_saving_bps": 2.0667968813036555,
+    "net_cagr_A": 0.08419122305381621,
+    "net_cagr_B": 0.0879204480853164,
+    "net_volatility_A": 0.17529459341783774,
+    "net_volatility_B": 0.17428143225784934,
+    "net_max_drawdown_A": -0.3295750163964587,
+    "net_max_drawdown_B": -0.331386153847938
+  },
+  {
+    "replications": 5000,
+    "mean_block": 60,
+    "seed": 20260926,
+    "rng": "PCG64",
+    "index_array_sha256": "dcbc2c2e0f08aef10d0b2193df89650adc5af193083426159a757d2b064abe6e",
+    "paired_fields": [
+      "gross_A",
+      "gross_B",
+      "turnover_A",
+      "turnover_B"
+    ],
+    "point": {
+      "sessions": 1508,
+      "volatility_A": 0.17529024061451232,
+      "volatility_B": 0.17427409722678736,
+      "turnover_A": 0.775927398958076,
+      "turnover_B": 1.189286775218806,
+      "volatility_ratio": 1.005830719561282,
+      "turnover_ratio": 0.6524308645535222
+    },
+    "intervals": {
+      "volatility_ratio": {
+        "point": 1.005830719561282,
+        "percentile_95": [
+          1.0005714041371891,
+          1.0151695731082833
+        ],
+        "simultaneous_lower": 1.0005714041371891,
+        "simultaneous_upper": 1.0151695731082833,
+        "undefined_replications": 0
+      },
+      "turnover_ratio": {
+        "point": 0.6524308645535222,
+        "percentile_95": [
+          0.5085559342624907,
+          0.7688687559691091
+        ],
+        "simultaneous_lower": 0.5085559342624907,
+        "simultaneous_upper": 0.7688687559691091,
+        "undefined_replications": 0
+      }
+    },
+    "classification": "Strong support",
+    "strong_support": true,
+    "evidence_against": false,
+    "point_estimates_meet_target": true,
+    "scenario": "baseline",
+    "cost_bps": 5.0,
+    "primary_A": "risk_tolerant_0.02",
+    "primary_B": "variance_penalty_0.3",
+    "annual_cost_saving_bps": 2.0667968813036555,
+    "net_cagr_A": 0.08419122305381621,
+    "net_cagr_B": 0.0879204480853164,
+    "net_volatility_A": 0.17529459341783774,
+    "net_volatility_B": 0.17428143225784934,
+    "net_max_drawdown_A": -0.3295750163964587,
+    "net_max_drawdown_B": -0.331386153847938
+  },
+  {
+    "replications": 5000,
+    "mean_block": 20,
+    "seed": 20260926,
+    "rng": "PCG64",
+    "index_array_sha256": "71ee66364615aa1d95a510caee073c029d4bd37837619fcf7293d87ebfc5f209",
+    "paired_fields": [
+      "gross_A",
+      "gross_B",
+      "turnover_A",
+      "turnover_B"
+    ],
+    "point": {
+      "sessions": 1508,
+      "volatility_A": 0.1752901917300929,
+      "volatility_B": 0.17427409787737927,
+      "turnover_A": 0.7759884777647907,
+      "turnover_B": 1.1893104431482278,
+      "volatility_ratio": 1.0058304353032919,
+      "turnover_ratio": 0.6524692373091999
+    },
+    "intervals": {
+      "volatility_ratio": {
+        "point": 1.0058304353032919,
+        "percentile_95": [
+          0.9999879739916058,
+          1.014906397916977
+        ],
+        "simultaneous_lower": 0.9999879739916058,
+        "simultaneous_upper": 1.014906397916977,
+        "undefined_replications": 0
+      },
+      "turnover_ratio": {
+        "point": 0.6524692373091999,
+        "percentile_95": [
+          0.533197042445749,
+          0.7555481657056863
+        ],
+        "simultaneous_lower": 0.533197042445749,
+        "simultaneous_upper": 0.7555481657056863,
+        "undefined_replications": 0
+      }
+    },
+    "classification": "Strong support",
+    "strong_support": true,
+    "evidence_against": false,
+    "point_estimates_meet_target": true,
+    "scenario": "cost_0",
+    "cost_bps": 0.0,
+    "primary_A": "risk_tolerant_0.02",
+    "primary_B": "variance_penalty_0.3",
+    "annual_cost_saving_bps": 0.0,
+    "net_cagr_A": 0.08470301515820089,
+    "net_cagr_B": 0.08865851084233722,
+    "net_volatility_A": 0.1752901917300929,
+    "net_volatility_B": 0.17427409787737935,
+    "net_max_drawdown_A": -0.3294457230186132,
+    "net_max_drawdown_B": -0.3312289876603698
+  },
+  {
+    "replications": 5000,
+    "mean_block": 20,
+    "seed": 20260926,
+    "rng": "PCG64",
+    "index_array_sha256": "71ee66364615aa1d95a510caee073c029d4bd37837619fcf7293d87ebfc5f209",
+    "paired_fields": [
+      "gross_A",
+      "gross_B",
+      "turnover_A",
+      "turnover_B"
+    ],
+    "point": {
+      "sessions": 1508,
+      "volatility_A": 0.1752902187463111,
+      "volatility_B": 0.17427409774724648,
+      "turnover_A": 0.7759754496798696,
+      "turnover_B": 1.1893057030226164,
+      "volatility_ratio": 1.0058305910757794,
+      "turnover_ratio": 0.6524608834446272
+    },
+    "intervals": {
+      "volatility_ratio": {
+        "point": 1.0058305910757794,
+        "percentile_95": [
+          0.9999880609125278,
+          1.0149068081361212
+        ],
+        "simultaneous_lower": 0.9999880609125278,
+        "simultaneous_upper": 1.0149068081361212,
+        "undefined_replications": 0
+      },
+      "turnover_ratio": {
+        "point": 0.6524608834446272,
+        "percentile_95": [
+          0.53318846598427,
+          0.7555359319896803
+        ],
+        "simultaneous_lower": 0.53318846598427,
+        "simultaneous_upper": 0.7555359319896803,
+        "undefined_replications": 0
+      }
+    },
+    "classification": "Strong support",
+    "strong_support": true,
+    "evidence_against": false,
+    "point_estimates_meet_target": true,
+    "scenario": "cost_1",
+    "cost_bps": 1.0,
+    "primary_A": "risk_tolerant_0.02",
+    "primary_B": "variance_penalty_0.3",
+    "annual_cost_saving_bps": 0.41333025334274653,
+    "net_cagr_A": 0.08460040840974048,
+    "net_cagr_B": 0.08851085396475367,
+    "net_volatility_A": 0.17529106519753782,
+    "net_volatility_B": 0.17427553939681353,
+    "net_max_drawdown_A": -0.3294714547718084,
+    "net_max_drawdown_B": -0.3312604251634247
+  },
+  {
+    "replications": 5000,
+    "mean_block": 20,
+    "seed": 20260926,
+    "rng": "PCG64",
+    "index_array_sha256": "71ee66364615aa1d95a510caee073c029d4bd37837619fcf7293d87ebfc5f209",
+    "paired_fields": [
+      "gross_A",
+      "gross_B",
+      "turnover_A",
+      "turnover_B"
+    ],
+    "point": {
+      "sessions": 1508,
+      "volatility_A": 0.1752902194758814,
+      "volatility_B": 0.1742740965767475,
+      "turnover_A": 0.7758758247777874,
+      "turnover_B": 1.18926319038563,
+      "volatility_ratio": 1.0058306020177037,
+      "turnover_ratio": 0.6524004367159486
+    },
+    "intervals": {
+      "volatility_ratio": {
+        "point": 1.0058306020177037,
+        "percentile_95": [
+          0.9999881347692876,
+          1.0149068017494665
+        ],
+        "simultaneous_lower": 0.9999881347692876,
+        "simultaneous_upper": 1.0149068017494665,
+        "undefined_replications": 0
+      },
+      "turnover_ratio": {
+        "point": 0.6524004367159486,
+        "percentile_95": [
+          0.5331491451629249,
+          0.7554742298466978
+        ],
+        "simultaneous_lower": 0.5331491451629249,
+        "simultaneous_upper": 0.7554742298466978,
+        "undefined_replications": 0
+      }
+    },
+    "classification": "Strong support",
+    "strong_support": true,
+    "evidence_against": false,
+    "point_estimates_meet_target": true,
+    "scenario": "cost_10",
+    "cost_bps": 10.0,
+    "primary_A": "risk_tolerant_0.02",
+    "primary_B": "variance_penalty_0.3",
+    "annual_cost_saving_bps": 4.133873656078416,
+    "net_cagr_A": 0.08368033488594628,
+    "net_cagr_B": 0.08718293906841734,
+    "net_volatility_A": 0.1752992258220996,
+    "net_volatility_B": 0.17428908308582342,
+    "net_max_drawdown_A": -0.3297040823627414,
+    "net_max_drawdown_B": -0.3315432667425131
+  },
+  {
+    "replications": 5000,
+    "mean_block": 20,
+    "seed": 20260926,
+    "rng": "PCG64",
+    "index_array_sha256": "71ee66364615aa1d95a510caee073c029d4bd37837619fcf7293d87ebfc5f209",
+    "paired_fields": [
+      "gross_A",
+      "gross_B",
+      "turnover_A",
+      "turnover_B"
+    ],
+    "point": {
+      "sessions": 1508,
+      "volatility_A": 0.1734777226256757,
+      "volatility_B": 0.17385861281434237,
+      "turnover_A": 1.0025730609659742,
+      "turnover_B": 1.4284830436625355,
+      "volatility_ratio": 0.9978091957453187,
+      "turnover_ratio": 0.7018445654037612
+    },
+    "intervals": {
+      "volatility_ratio": {
+        "point": 0.9978091957453187,
+        "percentile_95": [
+          0.9926991650005434,
+          1.0050656403557794
+        ],
+        "simultaneous_lower": 0.9926991650005434,
+        "simultaneous_upper": 1.0050656403557794,
+        "undefined_replications": 0
+      },
+      "turnover_ratio": {
+        "point": 0.7018445654037612,
+        "percentile_95": [
+          0.5963308560874732,
+          0.8018323084925786
+        ],
+        "simultaneous_lower": 0.5963308560874732,
+        "simultaneous_upper": 0.8018323084925786,
+        "undefined_replications": 0
+      }
+    },
+    "classification": "Promising but uncertain",
+    "strong_support": false,
+    "evidence_against": false,
+    "point_estimates_meet_target": true,
+    "scenario": "window_126",
+    "cost_bps": 5.0,
+    "primary_A": "risk_tolerant_0.02",
+    "primary_B": "variance_penalty_0.3",
+    "annual_cost_saving_bps": 2.129549913482817,
+    "net_cagr_A": 0.09018658098560373,
+    "net_cagr_B": 0.09031111871065378,
+    "net_volatility_A": 0.17348253248747544,
+    "net_volatility_B": 0.17386034089948907,
+    "net_max_drawdown_A": -0.3262489586988413,
+    "net_max_drawdown_B": -0.32711066313960546
+  },
+  {
+    "replications": 5000,
+    "mean_block": 20,
+    "seed": 20260926,
+    "rng": "PCG64",
+    "index_array_sha256": "71ee66364615aa1d95a510caee073c029d4bd37837619fcf7293d87ebfc5f209",
+    "paired_fields": [
+      "gross_A",
+      "gross_B",
+      "turnover_A",
+      "turnover_B"
+    ],
+    "point": {
+      "sessions": 1508,
+      "volatility_A": 0.17778305656888513,
+      "volatility_B": 0.17733665450257063,
+      "turnover_A": 0.6659155911630781,
+      "turnover_B": 1.1056657676302883,
+      "volatility_ratio": 1.0025172577410273,
+      "turnover_ratio": 0.602275670151476
+    },
+    "intervals": {
+      "volatility_ratio": {
+        "point": 1.0025172577410273,
+        "percentile_95": [
+          0.9973526249533895,
+          1.0071017704832106
+        ],
+        "simultaneous_lower": 0.9973526249533895,
+        "simultaneous_upper": 1.0071017704832106,
+        "undefined_replications": 0
+      },
+      "turnover_ratio": {
+        "point": 0.602275670151476,
+        "percentile_95": [
+          0.4906716659243283,
+          0.7119546575701564
+        ],
+        "simultaneous_lower": 0.4906716659243283,
+        "simultaneous_upper": 0.7119546575701564,
+        "undefined_replications": 0
+      }
+    },
+    "classification": "Strong support",
+    "strong_support": true,
+    "evidence_against": false,
+    "point_estimates_meet_target": true,
+    "scenario": "window_504",
+    "cost_bps": 5.0,
+    "primary_A": "risk_tolerant_0.02",
+    "primary_B": "variance_penalty_0.3",
+    "annual_cost_saving_bps": 2.1987508823360575,
+    "net_cagr_A": 0.0755765757960607,
+    "net_cagr_B": 0.07667722954123435,
+    "net_volatility_A": 0.17778618741986799,
+    "net_volatility_B": 0.17733826412339698,
+    "net_max_drawdown_A": -0.3416994164487903,
+    "net_max_drawdown_B": -0.3365345413669468
+  },
+  {
+    "replications": 5000,
+    "mean_block": 20,
+    "seed": 20260926,
+    "rng": "PCG64",
+    "index_array_sha256": "71ee66364615aa1d95a510caee073c029d4bd37837619fcf7293d87ebfc5f209",
+    "paired_fields": [
+      "gross_A",
+      "gross_B",
+      "turnover_A",
+      "turnover_B"
+    ],
+    "point": {
+      "sessions": 1508,
+      "volatility_A": 0.17467276845504667,
+      "volatility_B": 0.17373747661412678,
+      "turnover_A": 0.8349327732145536,
+      "turnover_B": 1.2601353664497534,
+      "volatility_ratio": 1.0053833626408493,
+      "turnover_ratio": 0.6625738753502762
+    },
+    "intervals": {
+      "volatility_ratio": {
+        "point": 1.0053833626408493,
+        "percentile_95": [
+          0.9987430454899546,
+          1.015502274749995
+        ],
+        "simultaneous_lower": 0.9987430454899546,
+        "simultaneous_upper": 1.015502274749995,
+        "undefined_replications": 0
+      },
+      "turnover_ratio": {
+        "point": 0.6625738753502762,
+        "percentile_95": [
+          0.5509455917676084,
+          0.7600442171074973
+        ],
+        "simultaneous_lower": 0.5509455917676084,
+        "simultaneous_upper": 0.7600442171074973,
+        "undefined_replications": 0
+      }
+    },
+    "classification": "Strong support",
+    "strong_support": true,
+    "evidence_against": false,
+    "point_estimates_meet_target": true,
+    "scenario": "sample_covariance",
+    "cost_bps": 5.0,
+    "primary_A": "risk_tolerant_0.02",
+    "primary_B": "variance_penalty_0.3",
+    "annual_cost_saving_bps": 2.12601296617601,
+    "net_cagr_A": 0.08649557646807593,
+    "net_cagr_B": 0.08891816345466186,
+    "net_volatility_A": 0.17467616526799948,
+    "net_volatility_B": 0.17374247334020498,
+    "net_max_drawdown_A": -0.32572872863614655,
+    "net_max_drawdown_B": -0.328814493718546
+  },
+  {
+    "replications": 5000,
+    "mean_block": 20,
+    "seed": 20260926,
+    "rng": "PCG64",
+    "index_array_sha256": "71ee66364615aa1d95a510caee073c029d4bd37837619fcf7293d87ebfc5f209",
+    "paired_fields": [
+      "gross_A",
+      "gross_B",
+      "turnover_A",
+      "turnover_B"
+    ],
+    "point": {
+      "sessions": 1508,
+      "volatility_A": 0.1875373047182793,
+      "volatility_B": 0.18556837681372912,
+      "turnover_A": 0.15873357102124636,
+      "turnover_B": 0.3834700387863822,
+      "volatility_ratio": 1.0106102555745615,
+      "turnover_ratio": 0.41393995610090234
+    },
+    "intervals": {
+      "volatility_ratio": {
+        "point": 1.0106102555745615,
+        "percentile_95": [
+          1.0083411461153657,
+          1.0150051642586746
+        ],
+        "simultaneous_lower": 1.0083411461153657,
+        "simultaneous_upper": 1.0150051642586746,
+        "undefined_replications": 0
+      },
+      "turnover_ratio": {
+        "point": 0.41393995610090234,
+        "percentile_95": [
+          0.28357338814778116,
+          0.5466736229050088
+        ],
+        "simultaneous_lower": 0.28357338814778116,
+        "simultaneous_upper": 0.5466736229050088,
+        "undefined_replications": 0
+      }
+    },
+    "classification": "Strong support",
+    "strong_support": true,
+    "evidence_against": false,
+    "point_estimates_meet_target": true,
+    "scenario": "diagonal_covariance",
+    "cost_bps": 5.0,
+    "primary_A": "risk_tolerant_0.02",
+    "primary_B": "variance_penalty_0.3",
+    "annual_cost_saving_bps": 1.123682338825679,
+    "net_cagr_A": 0.1071747406776542,
+    "net_cagr_B": 0.10764464716986333,
+    "net_volatility_A": 0.18753819036874153,
+    "net_volatility_B": 0.1855717028392154,
+    "net_max_drawdown_A": -0.3528272471316065,
+    "net_max_drawdown_B": -0.34704008167555267
+  },
+  {
+    "replications": 5000,
+    "mean_block": 20,
+    "seed": 20260926,
+    "rng": "PCG64",
+    "index_array_sha256": "71ee66364615aa1d95a510caee073c029d4bd37837619fcf7293d87ebfc5f209",
+    "paired_fields": [
+      "gross_A",
+      "gross_B",
+      "turnover_A",
+      "turnover_B"
+    ],
+    "point": {
+      "sessions": 1508,
+      "volatility_A": 0.17516848723511474,
+      "volatility_B": 0.17462512744294326,
+      "turnover_A": 1.8699086827281783,
+      "turnover_B": 9.579873296081889,
+      "volatility_ratio": 1.003111578500345,
+      "turnover_ratio": 0.19519137935706934
+    },
+    "intervals": {
+      "volatility_ratio": {
+        "point": 1.003111578500345,
+        "percentile_95": [
+          0.9987141948062124,
+          1.009843448371512
+        ],
+        "simultaneous_lower": 0.9987141948062124,
+        "simultaneous_upper": 1.009843448371512,
+        "undefined_replications": 0
+      },
+      "turnover_ratio": {
+        "point": 0.19519137935706934,
+        "percentile_95": [
+          0.152891187324231,
+          0.24497215832506367
+        ],
+        "simultaneous_lower": 0.152891187324231,
+        "simultaneous_upper": 0.24497215832506367,
+        "undefined_replications": 0
+      }
+    },
+    "classification": "Strong support",
+    "strong_support": true,
+    "evidence_against": false,
+    "point_estimates_meet_target": true,
+    "scenario": "extra_execution_lag",
+    "cost_bps": 5.0,
+    "primary_A": "risk_tolerant_0.02",
+    "primary_B": "variance_penalty_0.3",
+    "annual_cost_saving_bps": 38.549823066768596,
+    "net_cagr_A": 0.08198268553107879,
+    "net_cagr_B": 0.07769189369497065,
+    "net_volatility_A": 0.17516631432711943,
+    "net_volatility_B": 0.17462863117791488,
+    "net_max_drawdown_A": -0.33291805685708187,
+    "net_max_drawdown_B": -0.3372440317072175
+  }
+]

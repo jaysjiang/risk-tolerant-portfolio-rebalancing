@@ -1,0 +1,2 @@
+# Preserve the byte-level release hashes across Windows and Linux checkouts.
+* -text

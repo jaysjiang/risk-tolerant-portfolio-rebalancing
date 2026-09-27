@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "scope": "Research source, reports and aggregate results",
+  "copied_files": {
+    "src/risk_rebalancing/experiments.py": {
+      "original": "src/risk_rebalancing/experiments.py",
+      "sha256": "868ccb3c1504dfd290f50fd8e446e8df3f48c6b1d53aa188cb2527de57747ea5"
+    },
+    "src/risk_rebalancing/inference.py": {
+      "original": "src/risk_rebalancing/inference.py",
+      "sha256": "13faa558392d80776a7c64e210049af9884ac0f0419ddab154df7481248de46b"
+    },
+    "src/risk_rebalancing/mechanisms.py": {
+      "original": "src/risk_rebalancing/mechanisms.py",
+      "sha256": "7b5d4eeeed7b4cb3982044fecc84c44d72d59044fec83ed6553379e2877e155f"
+    },
+    "src/risk_rebalancing/optimization.py": {
+      "original": "src/risk_rebalancing/optimization.py",
+      "sha256": "89e377b7e1ee8acba76d71e7e8f6563107d9d18bc2f0caf77e5ce5ab54417228"
+    },
+    "src/risk_rebalancing/policies.py": {
+      "original": "src/risk_rebalancing/policies.py",
+      "sha256": "de1a67d55e5d9238e3595f7bcf88b354d913bf88cbf44dab8513e1f5eaad8cc3"
+    },
+    "src/risk_rebalancing/risk.py": {
+      "original": "src/risk_rebalancing/risk.py",
+      "sha256": "38de460e0517165f2caba2be2ad99424521d05a130bcb889983ba78f3c2ab6cf"
+    },
+    "src/risk_rebalancing/selection.py": {
+      "original": "src/risk_rebalancing/selection.py",
+      "sha256": "f50b8157be5ae9dddecf240c678cd87448fe4fcc4fa28b796b8dd2fc6faf12d4"
+    },
+    "src/risk_rebalancing/__init__.py": {
+      "original": "src/risk_rebalancing/__init__.py",
+      "sha256": "bfd35f1f9c89932646015fe9f65556b5a975765aa519b731d5e5066d210d058f"
+    },
+    "reports/figures/final_decision_examples.png": {
+      "original": "reports/figures/final_decision_examples.png",
+      "sha256": "c660bfe16c986a63b51ba697dc2484f85433469e0ed5a4dfccef697881223577"
+    },
+    "reports/figures/final_forecast_diagnostics.png": {
+      "original": "reports/figures/final_forecast_diagnostics.png",
+      "sha256": "9b27e26fa37858b506aa063f6618bb35e8e1dcf5d1dee588ce4d0f4b446044ec"
+    },
+    "reports/figures/final_net_wealth.png": {
+      "original": "reports/figures/final_net_wealth.png",
+      "sha256": "a64bc7fae26ffca1a59898a4d8e45c9ed3ebc38dc067e30975b1b80b87f43739"
+    },
+    "reports/figures/final_risk_turnover.png": {
+      "original": "reports/figures/final_risk_turnover.png",
+      "sha256": "a52241b043ea7e560284e5d65878c3d862eb4720750de6f05671113c8fa2e9d8"
+    },
+    "reports/figures/final_uncertainty.png": {
+      "original": "reports/figures/final_uncertainty.png",
+      "sha256": "3f4e0abbb3a8583c97e29ad1989c4fdb85d982e3af50ce5065f06550355b592f"
+    },
+    "reports/figures/publication_risk_turnover.png": {
+      "original": "reports/figures/publication_risk_turnover.png",
+      "sha256": "a2edc59f048959101ad80e23154440854715c4f87212fa4d46054cb7f73b44af"
+    },
+    "reports/figures/allocation_plane.png": {
+      "original": "reports/mechanism_studies/mechanisms_20260926T181909Z_19cfa0e4/allocation_plane.png",
+      "sha256": "99389563fd12eac733ad44e40b26a5aa34fe4322ee8c2b72afb293a0653938a4"
+    },
+    "reports/figures/frequency_size.png": {
+      "original": "reports/mechanism_studies/mechanisms_20260926T181909Z_19cfa0e4/frequency_size.png",
+      "sha256": "414b5bb58be4a38ca9ad0edcce8959f36d2cd4795b2385402603ee5194f9608f"
+    },
+    "reports/figures/exposure_episodes.png": {
+      "original": "reports/mechanism_studies/mechanisms_20260926T181909Z_19cfa0e4/exposure_episodes.png",
+      "sha256": "319dc6b878ca691fc7e278b4e7184d287978e5b966c6f0d0abf79bc52320a0fc"
+    },
+    "reports/final_execution_queue_diagnostic.json": {
+      "original": "reports/final_execution_queue_diagnostic.json",
+      "sha256": "6d19e19d159e03f13f3c718fe22019e466c42fa037f9d8ed8adbef4aaa0896c5"
+    },
+    "reports/results/inference.json": {
+      "original": "reports/final_studies/final_20260926T172232Z_d4bdfe8d/analysis/inference.json",
+      "sha256": "1f71042a4a1b3ca61f797ecfc5dfac7f316bf2d681cda83943aeb8b4a16ed358"
+    },
+    "reports/results/historical_stability.json": {
+      "original": "reports/final_studies/final_20260926T172232Z_d4bdfe8d/analysis/historical_stability.json",
+      "sha256": "7779fe2f23b66bf605f482dd8179956ff081f7f2d54545b0a6488534ad52a56a"
+    },
+    "tests/test_model.py": {
+      "original": "tests/test_model.py",
+      "sha256": "060ace3bf5b1992f37a903e41ef4609a5ef744fa009068103b351de212c8ccd7"
+    },
+    "tests/test_policies.py": {
+      "original": "tests/test_policies.py",
+      "sha256": "84f9e15e56569066489e703836a9181c0513eaea5b0dc6b76d0604f2c2a237ec"
+    },
+    "tests/test_mechanisms.py": {
+      "original": "tests/test_mechanisms.py",
+      "sha256": "57aee1ca931dc9119d1767e7df5b4fe4aa4a9f24020ffe229ec5322a2f406b58"
+    }
+  },
+  "adapted_files": {
+    "reports/research_note.md": {
+      "original_sha256": "7fe0e2990ef2699e0d633916dd287f9d1a77a804f64be625e0bc9621d6bee041",
+      "change": "Editorial revisions and repository links; empirical results unchanged."
+    },
+    "reports/final_evaluation.md": {
+      "original_sha256": "21bfba2dd713f8ca261c75b2a719a503a13641e83b3b7fe725621c984d0048d8",
+      "change": "Editorial revisions and repository links; empirical results unchanged."
+    },
+    "reports/final_all_policies.md": {
+      "original_sha256": "f6f1f9ffd0dc0807921128815625b81a899adf1f5f8d8901e4e78531eb214181",
+      "change": "Editorial revisions and repository links; empirical results unchanged."
+    },
+    "reports/mechanism_review.md": {
+      "original_sha256": "ce3c9168b284ae12ca5f9f1adcbb51c3319336e1f9cc58aae57eaf879b1357d8",
+      "change": "Editorial revisions and repository links; empirical results unchanged."
+    },
+    "tests": {
+      "change": "Preserved synthetic tests; removed one assertion about private data quarantine, rewired local imports and temporary directories, and extracted pure inference/selection tests."
+    },
+    "scripts": {
+      "change": "New public entry points, reusing the unchanged synthetic fixture and comparison functions. No private data-release or publication workflow imported."
+    },
+    "docs/accounting_specification.md": {
+      "original": "docs/accounting_specification.md",
+      "original_sha256": "8eb19a05f6d4d4a25a47e8dba77467c26b1fcdb13b3b4b1e8d195b4a401c19cc",
+      "change": "Editorial revisions; methodological choices and empirical values retained."
+    },
+    "docs/final_evaluation_specification.md": {
+      "original": "docs/final_evaluation_specification.md",
+      "original_sha256": "f9cce1e2a5a9586ded967458236c8ac570a4bea1b34a5acbc1fce099ef646e3c",
+      "change": "Editorial revisions; methodological choices and empirical values retained."
+    },
+    "docs/mechanism_review_specification.md": {
+      "original": "docs/mechanism_review_specification.md",
+      "original_sha256": "faa6cea1208bbd525a8e2b13d7735dbb92ca9891a24e2510407ac820b5180fa6",
+      "change": "Editorial revisions; methodological choices and empirical values retained."
+    },
+    "docs/research_protocol.md": {
+      "original": "docs/research_protocol.md",
+      "original_sha256": "c1fcd8c2a98b6dd13da3cd3620588b0b322901cc306a53f4737cc31c6004e6cb",
+      "change": "Editorial revisions; methodological choices and empirical values retained."
+    },
+    "docs/validation_specification.md": {
+      "original": "docs/validation_specification.md",
+      "original_sha256": "1069ab1715dffb0bfb7cd8a12a10f5140902f2fd0b65356eb473dcae8235e60c",
+      "change": "Editorial revisions; methodological choices and empirical values retained."
+    },
+    "reports/results/historical_verification.json": {
+      "original": "reports/final_studies/final_20260926T172232Z_d4bdfe8d/analysis/verification.json",
+      "original_sha256": "eec5ed6f33dbc4d0dd8f6299bd8a917b1e0cf83bf366070209c3d759c0be54af",
+      "change": "Editorial revisions; methodological choices and empirical values retained."
+    },
+    "PDF/research_note.pdf": {
+      "original": "PDF/research_note.pdf",
+      "original_sha256": "85db1d30bc21d0df62ed00e07d9f06fbdc5dc890cc189e19286bd12f3f2a0c9a",
+      "change": "Rebuilt from the revised public Markdown with Computer Modern vector equations and display fractions; tables, equation content and empirical values retained."
+    },
+    "reports/results/mechanisms.json": {
+      "original": "reports/mechanism_studies/mechanisms_20260926T181909Z_19cfa0e4/results.json",
+      "original_sha256": "95d604dd8d7591b7e6861ccafccda5fa08c153bd45b02d61f45354935ff3168d",
+      "change": "Editorial revision; research logic and empirical values retained."
+    },
+    "src/risk_rebalancing/ledger.py": {
+      "original": "src/risk_rebalancing/ledger.py",
+      "original_sha256": "0ccae4e9f2303208ce878aa3b46c74778850042127d1b0541662463012e4de2a",
+      "change": "Module docstring only; executable AST verified against original source."
+    }
+  },
+  "omitted": [
+    "Provider observations and corporate-action snapshots",
+    "Daily financial ledgers, trade records and bootstrap draws",
+    "Local working files and installed dependencies"
+  ],
+  "software_license": "No software license selected.",
+  "editorial_revision": {
+    "date": "2026-09-27",
+    "description": "Documentation uses current reproduction commands and direct research prose. The PDF is generated from the revised Markdown; equations, tables, empirical values and executable research logic are retained.",
+    "empirical_results_changed": false,
+    "executable_research_logic_changed": false,
+    "updated_at_utc": "2026-09-27T09:29:01.523630+00:00"
+  },
+  "typography_revision": {
+    "date": "2026-09-27",
+    "description": "Display equations use 12-point Computer Modern fonts with vector rendering and larger display fractions.",
+    "formula_source_changed": false,
+    "scientific_code_or_results_changed": false
+  }
+}
