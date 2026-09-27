@@ -27,14 +27,14 @@ Install the pinned requirements before the editable package. `--no-build-isolati
 
 ## Research note
 
-The [Markdown source](../reports/research_note.md) and [PDF](../PDF/research_note.pdf) contain the same note. To rebuild the PDF from the Markdown and included figures:
+The [Markdown source](../reports/research_note.md) and [PDF](../PDF/research_note.pdf) contain the same note. To rebuild the PDF and its two figures from the Markdown, aggregate results and saved illustration geometry:
 
 ```shell
 python -m pip install -r requirements-note.txt
 python scripts/build_note.py
 ```
 
-The output replaces `PDF/research_note.pdf`. Equations use Computer Modern fonts and vector rendering; intermediate equation PDFs stay under `work/note/PDF/`. Financial replay is not required to rebuild the note.
+The output replaces `PDF/research_note.pdf` and refreshes the two PNG figures used by the Markdown. Graphs, display equations and inline mathematics are embedded as vectors; mathematical notation uses Computer Modern fonts. Intermediate PDFs stay under `work/note/PDF/`. The allocation-plane illustration uses the derived coefficients in `reports/results/note_figure_inputs.json`; no provider observations or financial replay are required. This is a presentation rebuild of the saved results.
 
 ## Version records
 

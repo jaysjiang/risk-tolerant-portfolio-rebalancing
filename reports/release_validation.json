@@ -113,5 +113,19 @@
     "pdf_visual_review": "passed_all_six_pages",
     "vector_math_preserved": true,
     "regression_tests_rerun": false
+  },
+  "figure_checks": {
+    "verified_at_utc": "2026-09-27T11:11:35.192826+00:00",
+    "pages": 6,
+    "display_equations": 4,
+    "inline_math_spans": 26,
+    "vector_figures": 2,
+    "raster_images": 0,
+    "pdf_visual_review": "passed_all_six_pages",
+    "original_geometry_grid_points_checked": 160801,
+    "original_geometry_risk_mask_matches": true,
+    "scientific_source_and_stored_results_unchanged": true,
+    "display_equations_and_numerical_tables_unchanged": true,
+    "regression_tests_passed": 99
   }
 }

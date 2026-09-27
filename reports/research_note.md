@@ -18,7 +18,7 @@ This study tests whether a small forecast-risk tolerance can reduce portfolio tu
 | Net CAGR | 8.42% | 8.79% |
 | Net maximum drawdown | -32.96% | -33.14% |
 
-Table 1. A uses a 2% forecast-volatility tolerance; B is the validation-selected variance penalty with lambda 0.3. Costs are simulated at 5 bp per dollar bought or sold. Turnover includes both purchases and sales, excluding initial entry; entry costs remain in net wealth. CAGR uses 252 sessions per year.
+Table 1. A uses a 2% forecast-volatility tolerance; B is the validation-selected variance penalty with $\lambda=0.3$. Costs are simulated at 5 bp per dollar bought or sold. Turnover includes both purchases and sales, excluding initial entry; entry costs remain in net wealth. CAGR uses 252 sessions per year.
 
 ## Research design
 
@@ -30,7 +30,7 @@ Development covers 2005-2014, validation 2015-2019, and final evaluation 2020-20
 
 ## 1. Policy and implementation
 
-Let the current weights be the actual ETF holdings after market drift, normalized within the ETF sleeve. Using only returns observed through the decision close, compute the common minimum-variance reference:
+Let $w_t^-$ be the actual ETF weights after market drift, normalized within the ETF sleeve. Using only returns observed through the decision close, compute the common minimum-variance reference:
 
 $$
 \mathcal{C}=\{w:\mathbf{1}^{\top}w=1,\ 0\leq w_i\leq0.25\},\qquad v_t^*=\min_{w\in\mathcal{C}}\;w^{\top}\widehat{\Sigma}_t w.
@@ -46,7 +46,7 @@ If current weights are feasible, their zero-turnover objective is optimal: issue
 
 ### Comparator selection
 
-The penalty family solves normalized variance plus lambda times L1 turnover. Its primary comparator uses lambda 0.3:
+The penalty family solves normalized variance plus $\lambda$ times $L_1$ turnover. Its primary comparator uses $\lambda=0.3$:
 
 $$
 \min_{w\in\mathcal{C}}\;\frac{w^{\top}\widehat{\Sigma}_t w}{v_t^*}+0.3\|w-w_t^-\|_1.
@@ -58,13 +58,13 @@ The constrained and penalized formulations are related through convex duality: a
 
 ### From a signal to a funded trade
 
-Choose targets after close t and fill at open t+1, without refitting the signal. For opening ETF dollar holdings a, settled cash C, target w and cost c, solve for post-cost ETF wealth S:
+Choose targets after close $t$ and fill at open $t+1$, without refitting the signal. For opening ETF dollar holdings $a$, settled cash $C$, target $w$ and cost $c$, solve for post-cost ETF wealth $S$:
 
 $$
 S+c\sum_i|w_iS-a_i|=\sum_i a_i+C.
 $$
 
-Set shares to target weight times S divided by the nominal opening price. This funds costs from the portfolio [3]. Cash dividends accrue as receivables on the ex-date, settle after the pay-date close and become usable at the next open. Genuine splits change share units; they do not create returns. Gross returns remove explicit cost debits from the same funded exposure path. Cash and receivables remain in total NAV but outside the sleeve-risk constraint. Daily cap monitoring applies to calendar rules too; later price drift can breach a target cap before the next fill.
+Set shares to target weight times $S$ divided by the nominal opening price. This funds costs from the portfolio [3]. Cash dividends accrue as receivables on the ex-date, settle after the pay-date close and become usable at the next open. Genuine splits change share units; they do not create returns. Gross returns remove explicit cost debits from the same funded exposure path. Cash and receivables remain in total NAV but outside the sleeve-risk constraint. Daily cap monitoring applies to calendar rules too; later price drift can breach a target cap before the next fill.
 
 <!-- page -->
 
@@ -72,7 +72,7 @@ Set shares to target weight times S divided by the nominal opening price. This f
 
 ![Risk and turnover for all frozen policies](figures/publication_risk_turnover.png)
 
-Figure 1. All 21 baseline policies, without selecting a test-sample winner. Band 0.08 was matched to A's turnover on validation; secondary penalty 1 was the nearest available but unmatched setting. Neither label implies a turnover match in the final period. Calendar policies include daily cap monitoring.
+Figure 1. All 21 baseline policies, without selecting a test-sample winner. Band $b=0.08$ was matched to A's turnover on validation; secondary penalty $\lambda=1$ was the nearest available but unmatched setting. Neither label implies a turnover match in the final period. Calendar policies include daily cap monitoring.
 
 | Primary quantity | Estimate | Ordinary 95% interval | Ceiling |
 |---|---:|---|---:|
@@ -115,7 +115,7 @@ The two-session FIFO convention forms new signals from actual holdings without p
 
 ### Inference assumptions
 
-The stationary bootstrap jointly samples A/B gross returns and turnover on the same dates, continuing circularly with probability 1-1/L and restarting uniformly with probability 1/L [4]. Seed 20260926 and PCG64 fix 5,000 draws. The baseline uses L=20; lengths 10 and 60 provide prespecified checks. Both one-sided upper bounds have nominal 95% joint coverage through a Bonferroni adjustment, subject to bootstrap validity.
+The stationary bootstrap jointly samples A/B gross returns and turnover on the same dates, continuing circularly with probability $1-1/L$ and restarting uniformly with probability $1/L$ [4]. Seed 20260926 and PCG64 fix 5,000 draws. The baseline uses $L=20$; lengths 10 and 60 provide prespecified checks. Both one-sided upper bounds have nominal 95% joint coverage through a Bonferroni adjustment, subject to bootstrap validity.
 
 This procedure conditions on recorded outcomes and frozen policies. It does not refit covariances, regenerate trading paths, correct data mining or remove regime dependence. The diagonal-covariance sensitivity changes both targets and triggers, so it does not isolate a causal benefit from correlation-aware tolerance geometry.
 
@@ -125,13 +125,13 @@ This procedure conditions on recorded outcomes and frozen policies. It does not 
 
 ![A slice of the acceptable-risk region](figures/allocation_plane.png)
 
-Figure 2. Exploratory allocation-plane diagnostic of the first partial rebalance. Current = (0,0), full MV = (1,0), chosen = (0,1); coordinates span their actual weight differences. Pink marks the 2% risk region, blue the 8-percentage-point weight band, and gray infeasible weights. This is a slice, not the full nine-asset feasible set.
+Figure 2. Exploratory slice at the first partial rebalance. Current $w^-$ is at $(0,0)$, minimum-variance $w^\star$ at $(1,0)$, and chosen $w^A$ at $(0,1)$ in the displayed plane. Pink marks the 2% risk region, blue the 8-percentage-point weight band, and gray infeasible weights. Here $\sigma^\star$ denotes minimum forecast volatility. This is a slice of the nine-asset feasible set.
 
 On 6 January 2020, current forecast volatility is 1.0173 times the minimum. The holdings already satisfy the 1.02 ceiling: KEEP avoids a full-MV weight turnover of 0.2351. On 2 January, the ratio is 1.2229; a partial rebalance reduces it to 1.0200, with weight turnover 0.4784 rather than 0.7502 for full MV. The first partial trade is also the largest routine fill. Decision-time weight distances differ from opening dollar turnover.
 
 Exploratory analysis decomposes the saving: A has 50.7% fewer active trading days than B, but 32.3% larger turnover on an active day. Mean concentration (sum of squared weights) is 0.1866 versus 0.2015. Across 72 shared month-end states, A chooses KEEP 44 times, versus zero for B and 24 for the band. These descriptive checks support different trading triggers, without proving a causal benefit from covariance geometry.
 
-All saved tolerance decisions pass the frozen risk checks. For A, 465 closing sessions exceed the 25% cap after market drift; these are not target violations. 333 solver attempts with qualified inaccurate status pass the pre-existing independent certificates. No unresolved solver failures occur. Epsilon zero and daily MV have identical baseline NAV paths. KEEP may still involve mechanical cash reinvestment and its costs.
+All saved tolerance decisions pass the frozen risk checks. For A, 465 closing sessions exceed the 25% cap after market drift; these are not target violations. 333 solver attempts with qualified inaccurate status pass the pre-existing independent certificates. No unresolved solver failures occur. $\varepsilon=0$ and daily MV have identical baseline NAV paths. KEEP may still involve mechanical cash reinvestment and its costs.
 
 <!-- page -->
 

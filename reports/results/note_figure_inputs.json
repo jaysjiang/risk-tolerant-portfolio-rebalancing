@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "description": "Derived geometry for the first partial-rebalance illustration; no provider observations.",
+  "signal_date": "2020-01-02",
+  "tickers": [
+    "XLB",
+    "XLE",
+    "XLF",
+    "XLI",
+    "XLK",
+    "XLP",
+    "XLU",
+    "XLV",
+    "XLY"
+  ],
+  "current_weights": [
+    0.10916985709061701,
+    0.11145976958880802,
+    0.11188617161952123,
+    0.11250326542909585,
+    0.11227212544672391,
+    0.11010954640302827,
+    0.10962167381743294,
+    0.11115864373722978,
+    0.11181894686754304
+  ],
+  "minimum_variance_weights": [
+    0.036553067229800264,
+    0.08352383022324529,
+    0.062131991356963005,
+    1.020432465018287e-08,
+    4.5664283627242875e-11,
+    0.24999999996374078,
+    0.2499999999909635,
+    0.19910183347308694,
+    0.11868926751221111
+  ],
+  "chosen_weights": [
+    0.09252584730087304,
+    0.09599816401355496,
+    0.11188617109339866,
+    0.01766717487671954,
+    0.0,
+    0.20894505213042652,
+    0.25,
+    0.11115864374074945,
+    0.11181894684427793
+  ],
+  "normalized_variance_gram": [
+    [
+      1.4954636945110888,
+      -0.37694457440689355,
+      -0.3074240890624372
+    ],
+    [
+      -0.37694457440689355,
+      0.2584254543026981,
+      0.19751012003330315
+    ],
+    [
+      -0.3074240890624372,
+      0.19751012003330315,
+      0.15978448368436174
+    ]
+  ],
+  "quadratic_definition": "For z = [1, u, v], forecast variance / minimum variance = z.T @ normalized_variance_gram @ z.",
+  "forecast_volatility_limit": 1.02,
+  "position_cap": 0.25,
+  "weight_band": 0.08,
+  "current_forecast_ratio": 1.222891530149379,
+  "chosen_forecast_ratio": 1.0200000000345966,
+  "source_sha256": {
+    "decision_examples.json": "2822cb247842a0f8a0606e3a20c8699a8b4c72c44e91a8578dcdf690f2b71fd9",
+    "input_risk_returns.parquet": "ff5d6579197e035fc8a3e549641b7a927b9dc60cb37a9e48651f4c84baafe04c"
+  }
+}

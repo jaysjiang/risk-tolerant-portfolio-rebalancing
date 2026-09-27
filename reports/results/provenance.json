@@ -54,14 +54,6 @@
       "original": "reports/figures/final_uncertainty.png",
       "sha256": "3f4e0abbb3a8583c97e29ad1989c4fdb85d982e3af50ce5065f06550355b592f"
     },
-    "reports/figures/publication_risk_turnover.png": {
-      "original": "reports/figures/publication_risk_turnover.png",
-      "sha256": "a2edc59f048959101ad80e23154440854715c4f87212fa4d46054cb7f73b44af"
-    },
-    "reports/figures/allocation_plane.png": {
-      "original": "reports/mechanism_studies/mechanisms_20260926T181909Z_19cfa0e4/allocation_plane.png",
-      "sha256": "99389563fd12eac733ad44e40b26a5aa34fe4322ee8c2b72afb293a0653938a4"
-    },
     "reports/figures/frequency_size.png": {
       "original": "reports/mechanism_studies/mechanisms_20260926T181909Z_19cfa0e4/frequency_size.png",
       "sha256": "414b5bb58be4a38ca9ad0edcce8959f36d2cd4795b2385402603ee5194f9608f"
@@ -98,7 +90,7 @@
   "adapted_files": {
     "reports/research_note.md": {
       "original_sha256": "7fe0e2990ef2699e0d633916dd287f9d1a77a804f64be625e0bc9621d6bee041",
-      "change": "Editorial revisions and repository links; empirical results unchanged."
+      "change": "Editorial revisions, repository links, inline mathematical notation and figure-caption definitions; empirical values and displayed equations retained."
     },
     "reports/final_evaluation.md": {
       "original_sha256": "21bfba2dd713f8ca261c75b2a719a503a13641e83b3b7fe725621c984d0048d8",
@@ -151,7 +143,7 @@
     "PDF/research_note.pdf": {
       "original": "PDF/research_note.pdf",
       "original_sha256": "85db1d30bc21d0df62ed00e07d9f06fbdc5dc890cc189e19286bd12f3f2a0c9a",
-      "change": "Rebuilt from the revised public Markdown with Computer Modern vector equations and display fractions; tables, equation content and empirical values retained."
+      "change": "Rebuilt with vector figures, Computer Modern display and inline mathematics, and updated figure captions; empirical values and displayed equations retained."
     },
     "reports/results/mechanisms.json": {
       "original": "reports/mechanism_studies/mechanisms_20260926T181909Z_19cfa0e4/results.json",
@@ -162,6 +154,16 @@
       "original": "src/risk_rebalancing/ledger.py",
       "original_sha256": "0ccae4e9f2303208ce878aa3b46c74778850042127d1b0541662463012e4de2a",
       "change": "Module docstring only; executable AST verified against original source."
+    },
+    "reports/figures/publication_risk_turnover.png": {
+      "original": "reports/figures/publication_risk_turnover.png",
+      "original_sha256": "a2edc59f048959101ad80e23154440854715c4f87212fa4d46054cb7f73b44af",
+      "change": "Redrawn with mathematical notation, revised typography and labels. Coordinates and scientific inputs are preserved."
+    },
+    "reports/figures/allocation_plane.png": {
+      "original": "reports/mechanism_studies/mechanisms_20260926T181909Z_19cfa0e4/allocation_plane.png",
+      "original_sha256": "99389563fd12eac733ad44e40b26a5aa34fe4322ee8c2b72afb293a0653938a4",
+      "change": "Redrawn with mathematical notation, revised typography and labels. Coordinates and scientific inputs are preserved."
     }
   },
   "omitted": [
@@ -181,6 +183,14 @@
     "date": "2026-09-27",
     "description": "Display equations use 12-point Computer Modern fonts with vector rendering and larger display fractions.",
     "formula_source_changed": false,
+    "scientific_code_or_results_changed": false
+  },
+  "figure_revision": {
+    "updated_at_utc": "2026-09-27T11:11:35.192826+00:00",
+    "description": "The note figures are reproducible from saved aggregate results and a reduced quadratic for the allocation-plane illustration. No provider observations are included in the figure inputs.",
+    "figure_inputs": "reports/results/note_figure_inputs.json",
+    "original_geometry_grid_points_checked": 160801,
+    "original_geometry_max_absolute_variance_ratio_difference": 1.9984014443252818e-15,
     "scientific_code_or_results_changed": false
   }
 }
